@@ -1,0 +1,24 @@
+                                Worst, Avarage, Best
+
+Sortowania:
+
+bubble                          zawsze n^2
+selection                       zawsze n^2
+insertion                       n^2, n^2, n
+merge                           n*log(n)
+quick                           n^2, n*log(n), n*log(n)
+radix                           zawsze d(n+k)
+(*d liczba cyfr w kluczach,
+ k liczba różnych cyfr)
+
+heap                            zawsze n*log(n)
+counting                        zawsze n+k
+(k* zakres)
+bucket                          n^2, n + n^2/k* + k, n (kiedy k~=n)
+(*k ilość kubków)
+
+Inne:
+
+binary search                   log(n), log(n), 1
+magiczne piątki                 zawsze n
+quickselect                     n^2, n, n
