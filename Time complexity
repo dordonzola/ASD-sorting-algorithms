@@ -1,0 +1,24 @@
+                                Worst, Avarage, Best
+
+Sorting algorithms:
+
+bubble                          always n^2
+selection                       always n^2
+insertion                       n^2, n^2, n
+merge                           n*log(n)
+quick                           n^2, n*log(n), n*log(n)
+radix                           always d(n+k)
+(*d-amount of letters in keys,
+ k-amount of different numbers)
+
+heap                            always n*log(n)
+counting                        always n+k
+(k*-range)
+bucket                          n^2, n + n^2/k* + k, n (when k~=n)
+(*k-nuber of buckets)
+
+Different algorithms:
+
+binary search                   log(n), log(n), 1
+median of medians               always n
+quickselect                     n^2, n, n
