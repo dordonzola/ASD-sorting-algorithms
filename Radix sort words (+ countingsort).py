@@ -1,4 +1,5 @@
-#wyrazy tej samej długości
+#words have the same length
+
 def countingsort(A,x):
     C=[0]*24
     B=[0]*len(A)
