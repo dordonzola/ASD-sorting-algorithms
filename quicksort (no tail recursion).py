@@ -1,4 +1,4 @@
-#Zużywa mniej pamięci, ale wolniejszy niż z rekursją
+#Uses less memory, but faster than with recursion
 
 def partition(T,a,b):
     x=T[b]
