@@ -1,4 +1,4 @@
-#Szybszy, ale zużywa więcej pamięci
+#Faster, but uses more memory
 
 def partition(T,a,b):
     x=T[b]
