@@ -40,7 +40,6 @@ def radix_letters(T):
 
     return T
 
-#T=['kot','aka','ala','lot','tfu','ojj']
 T = ['ola', 'bts', 'xd', 'ala', 'am', 'ela', 'ula', 'abrakadabra']
 
 print(radix_letters(T))
